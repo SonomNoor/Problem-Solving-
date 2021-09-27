@@ -1,0 +1,37 @@
+//reverse a string 
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+ // } Driver Code Ends
+// User function Template for C++
+class Solution {
+  public:
+    string revStr(string S) {
+        
+       string reverse;
+int lengthString = S.length();
+for (int i = lengthString - 1; i >= 0; i--) {
+reverse += S[i];
+}
+return reverse;
+        
+        
+        
+        // code here
+    }
+};
+
+// { Driver Code Starts.
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        string S;
+        cin >> S;
+        Solution ob;
+        cout << ob.revStr(S) << endl;
+    }
+    return 0;
+}
