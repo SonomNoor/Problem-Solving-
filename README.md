@@ -1,2 +1,2 @@
 # Problem-Solving-
-Popuar interview problem soluiton in c++
+Geeksforgeeks problem soluiton in c++
