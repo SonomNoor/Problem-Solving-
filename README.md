@@ -1,2 +1,2 @@
 # Problem-Solving-
-Geeksforgeeks problem soluiton in c++
+Geeksforgeeks problem ,codechef , algorithm, data structure soluiton in c++
