@@ -1,5 +1,22 @@
 //Change the string according to the first letter of string 
 
+
+ string modify (string s)
+    {
+        if(isupper(s[0]))
+        {
+             transform(s.begin(), s.end(), s.begin(), ::toupper);
+        }
+        else
+            transform(s.begin(), s.end(), s.begin(), ::tolower);
+        return s;
+        // your code here
+    }
+
+
+
+////////////////////////
+
 #include<bits/stdc++.h>
 using namespace std;
 
