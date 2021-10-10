@@ -33,6 +33,43 @@ class Solution
 };
 
 // { Driver Code Starts.
+////////////
+
+
+#include<iostream>
+using namespace std;
+
+int countSubstr (char str[])
+{
+	int res=0;
+	for (int i=0;i<str[i]!='\0';i++)
+	{
+		if(str[i]=='1')
+		{
+		
+			for (int j=i+1;j<str[j]!='\0';j++)
+			
+				if (str[j]=='1')
+				res++;
+			
+		}
+		
+	}
+	return res;
+	
+	
+}
+
+
+
+
+
+int main ( )
+{
+	char c[]="00100101";
+		cout<<countSubstr(c);
+	return 0;
+}
 
 int main()
 {
