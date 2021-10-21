@@ -4,18 +4,21 @@
 #include<iostream>
 using namespace std;
  
- void floyd (int n)
- {
- 	 
-         int k=1;
-   for(int i=1;i<=n;i++)
-  {
-      for(int j=0;j<i;j++)
-      cout<<k++<<" ";
-      
-      cout<<endl;
-  } 
- }
+
+    void floyd(int N)
+    {
+        int num=1;
+        for(int i=0; i<N; i++)
+        {
+            for(int j=0; j<=i; j++)
+            {
+                cout<<num<<" ";
+                num++;
+            }
+               
+                cout<<endl;
+        }
+    }
 
 int main ( )
 {
